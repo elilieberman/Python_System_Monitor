@@ -45,7 +45,7 @@ def monitor():
     
         
     'Retrieve port data for report'
-    flag = 1
+    
     while not terminate_flag:
         try:
             psutil.net_connections()
